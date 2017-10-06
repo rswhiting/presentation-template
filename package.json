@@ -1,0 +1,14 @@
+{
+  "name": "presentation-template",
+  "description": "presentation template for your presentation needs",
+  "author": "robertwhiting",
+  "registry": "npm",
+  "theme": "night",
+  "scripts": {
+      "preview": "reveal-md -w --theme $npm_package_theme --port 8888 slides.md",
+      "ship": "reveal-md --static dist/ --theme $npm_package_theme slides.md && cp -r ./images dist/ && reveal-md --print dist/$npm_package_name.pdf --theme $npm_package_theme slides.md"
+  },
+  "devDependencies": {
+    "reveal-md": "0.3.0"
+  }
+}
