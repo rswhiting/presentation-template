@@ -1,6 +1,11 @@
 # presentation-template
 reveal-md template for my presentations
 
+## install things
+Don't forget to get all the things! It won't work if you don't have the node dependencies:
+
+```npm install```
+
 ## run it live!
 Want to preview it in the browser and have it auto-update when you save?
 
