@@ -1,3 +1,8 @@
+---
+title: Presentation Template
+theme: night
+---
+
 <!-- .slide: data-background="./images/background.jpg" -->
 ## presentation template
 #### Robert Whiting
