@@ -9,12 +9,12 @@ Don't forget to get all the things! It won't work if you don't have the node dep
 ## run it live!
 Want to preview it in the browser and have it auto-update when you save?
 
-```npm run preview```
+```npm start```
 
 ## ship it
 Want to export it to static html and a pdf for people without internet connections?
 
-```npm run ship```
+```npm run build```
 
 
 ### Themes you can use
