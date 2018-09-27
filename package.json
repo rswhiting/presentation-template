@@ -5,10 +5,10 @@
   "registry": "npm",
   "scripts": {
     "start": "reveal-md -w --port 8888 slides.md",
-    "pdf": "reveal-md --print dist/$npm_package_name.pdf --theme $npm_package_theme slides.md",
+    "pdf": "reveal-md --print dist/$npm_package_name.pdf slides.md",
     "build": "reveal-md slides.md --static dist/"
   },
   "devDependencies": {
-    "reveal-md": "2.1.0"
+    "reveal-md": "2.1.2"
   }
 }
