@@ -6,7 +6,8 @@
   "scripts": {
     "start": "reveal-md -w --port 8888 slides.md",
     "pdf": "reveal-md --print dist/$npm_package_name.pdf slides.md",
-    "build": "reveal-md slides.md --static dist/"
+    "notes": "mv reveal-notes.json reveal.json && reveal-md --print dist/$npm_package_name-notes.pdf --theme white slides.md && mv reveal.json reveal-notes.json",
+    "static": "reveal-md slides.md --static dist/"
   },
   "devDependencies": {
     "reveal-md": "2.1.2"
